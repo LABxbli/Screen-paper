@@ -22,7 +22,7 @@ All code was written by **Penghao Yang**.
 
 ## Dependencies
 
-### Python 3.9.7 or above
+### Python 3.9.7 or above (http://www.python.org)
 Python Packages <br>
 **`OpenCV`** (https://github.com/opencv/opencv-python) <br>
 **`scikit-learn`** (https://scikit-learn.org/stable/) <br>
