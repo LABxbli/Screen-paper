@@ -1,0 +1,2 @@
+These files are used for quantification of colony greenness.
+RGB_score.xlsx file is the data used for training, and model.svm.linear.pkl is the model. You can use green_yellow_score_svm_v1.1.py for calculating each clone's greenness value. 
