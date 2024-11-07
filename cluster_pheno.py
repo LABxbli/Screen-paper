@@ -11,7 +11,7 @@ data = pd.read_csv("/screen/D_plate_phenotype/data.csv",index_col=0, header=0)
 print(data.describe())
 print(data.head())
 #data = data[~data.index.duplicated()]
-#超过75%的倍数在2以下，胆仍存在数据为0的情况，用log2(n+1)对数据进行处理
+#More than 75% of the data multiples are below 2, but there are still cases where the data is 0, so log2(n+1) is used to process the data
 
 
 spe = data.pop('group')
@@ -29,7 +29,7 @@ row_colors = spe.map(lut)
 
 clab = ['G3V2']
 
-#画图
+#Draw
 g = sns.clustermap(
     data=df_log_norm,
     row_colors=row_colors,
@@ -47,10 +47,10 @@ g.figure.set_size_inches(12,20)
 reordered_labels = df_log_norm.index[g.dendrogram_row.reordered_ind].tolist()
 use_labels = clab
 use_ticks = [reordered_labels.index(label) + .5 for label in use_labels]
-#获取重设的ticks数据
+#Obtain the reset ticks data
 g.ax_heatmap.set(yticks=use_ticks, yticklabels=use_labels)
 
-#图例
+#Figure legend
 for lable in spe.unique():
     g.ax_row_dendrogram.bar(0, 0, color=lut[lable],
                             label=lable, linewidth=0
@@ -59,10 +59,10 @@ g.ax_row_dendrogram.legend(loc="center", ncol=1)
 
 use_labels = clab
 use_ticks = [reordered_labels.index(label) + .5 for label in use_labels]
-#获取重设的ticks数据
+#Obtain the reset ticks data
 
 g.ax_heatmap.set(yticks=use_ticks, yticklabels=use_labels)
-#重新设定cluster的y label
+#Reset the y-label of the cluster
 
 re_lab = df_log_norm.columns[g.dendrogram_col.reordered_ind].tolist()
 
