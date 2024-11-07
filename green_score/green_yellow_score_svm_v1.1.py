@@ -70,7 +70,7 @@ if __name__ == '__main__':
 	
 	Final_score = {}
 	
-	clf = joblib.load( 'svm.linear.pkl' )
+	clf = joblib.load( 'model.svm.linear.pkl' )
 	
 	p = 1
 	for i in image_list:
