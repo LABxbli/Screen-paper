@@ -1,7 +1,7 @@
 
-This repository contains all the custom scripts and tools used in the study **"Functional Genomic Landscape of Photosynthetic Acclimation to Nitrogen Deprivation"**. These files were developed for digitizing and quantifying phenotypes in secondary screening experiments, including size and greenness measurements, as well as chlorophyll fluorescence parameters for each mutant colony.
+This repository contains all the custom scripts and tools used in the study **"Functional Genomic Landscape of Photosynthetic Acclimation to Nitrogen Deficiency"**. These files were developed for digitizing and quantifying phenotypes in secondary screening experiments, including size and greenness measurements, as well as chlorophyll fluorescence parameters for each mutant colony.
 
-All code was written by **Penghao Yang**.
+All code was written by **Penghao Yang** and **Kangning Guo**.
 
 ---
 
@@ -36,4 +36,4 @@ This code is distributed under the GNU General Public License v3. See GPL-3.0 Li
 
 ## Contact
 
-For questions or issues regarding the code, please contact Penghao Yang at yangpenghao@westlake.edu.cn
+For questions or issues regarding the code, please contact Penghao Yang at yangpenghao@westlake.edu.cn or Kangning Guo at guokangning@westlake.edu.cn
