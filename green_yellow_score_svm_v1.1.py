@@ -38,13 +38,6 @@ def save_images( image_list ):
 			loc = letter[ row + 1 ] + str( col )
 		image_list[ k ].save( loc + '.jpg' )
 
-def GreenScore( RGB ):
-	# version 1
-	# score = 100.87313 - 0.18387 * RGB[0] - 0.14197 * RGB[1] - 0.11600 * RGB[2]
-	# version 2
-	score = 96.04071 - 0.18708 * RGB[0] - 0.10520 * RGB[1] - 0.20440 * RGB[2]
-	return score
-
 if __name__ == '__main__':
 	parser = argparse.ArgumentParser( description='########\nGreen-Yellow Ranking\n#########\n' )
 	parser.add_argument( '-i', '--input', dest='input', metavar='', required=True, help='input image' )
@@ -60,13 +53,10 @@ if __name__ == '__main__':
 			args.output = args.input + '.tsv'
 	
 	img = Image.open( args.input )
-	# print( img.size )
 	
 	cropped = img.crop( ( 277.3, 225.3, 998.4, 702.7 ) )  # (left, upper, right, lower)
-	# cropped.save( "test.jpg" )
 	image_list = cut_image( cropped, 16, 24 )
 	
-	# save_images( image_list ) 					### if you want to check the images, print them all here
 	
 	Final_score = {}
 	
@@ -84,7 +74,6 @@ if __name__ == '__main__':
 		p += 1
 		
 	with open( args.output, 'w' ) as out:
-		# Final_score = sorted( Final_score.items(), key = lambda x:x[1] )
 		letter = [ chr(i) for i in range( ord("A"), ord("Q") ) ]
 		for k in Final_score:
 			row = int( k / 24 ) - 1
