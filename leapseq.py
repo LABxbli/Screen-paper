@@ -7,8 +7,7 @@ import pylab
 import matplotlib.pyplot as plt
 
 
-def file_name2(file_dir): #识别路径目录下包含的所有png格式照片
-    #注意返回至文件夹中所有文件，会打开深层文件夹查找
+def file_name2(file_dir):
     L=[] 
     for root, dirs, files in os.walk(file_dir):
         for file in files:
@@ -44,14 +43,14 @@ cassette2="GTTGGACTCAGGAGCAACTAGTCTGCCAGAAGGCTCGACGTCAGTNNNNNNNNNNNNNNNNNNNNNNTA
 def bmds1213(seq):
     seqb=seq.upper()
     lenb=len(seqb)
-    origin_longth=12#######################################10bp左右的相同片段太多，剔除掉#################
+    origin_longth=12##########
     step=1
     start=0
     end=start+origin_longth
     flag=0
     num=0
     seqs=[]
-    while end <=lenb:#当比对至截取末尾时，结束。
+    while end <=lenb:#
         if (seqb[start:end]in cassette1) or (seqb[start:end]in cassette2):
             flag=1
             #print(seqr[start:end])
@@ -64,7 +63,7 @@ def bmds1213(seq):
             seqs.append(q1)
             seqs.append(q2)
             seqs.append(start)
-            seqs.append(end-step)###########增加序列位置信息
+            seqs.append(end-step)#########
             seqs.append(p)
             num+=1
             flag=2
@@ -75,7 +74,7 @@ def bmds1213(seq):
             end=start+origin_longth        
     if flag==0:
         return -1
-    elif flag==1:#处理第一次匹配即在末位问题
+    elif flag==1:#
         q1=cassette1.find(seqb[start:end-step])
         q2=cassette2.find(seqb[start:end-step])
         p=end-start
