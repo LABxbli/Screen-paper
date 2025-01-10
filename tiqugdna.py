@@ -32,16 +32,14 @@ def ATCG_CGAT(seq):
         i+=1
     return temp
 ###############################################################
-def file_name2(file_dir): #识别路径目录下包含的所有png格式照片
-    #注意返回至文件夹中所有文件，会打开深层文件夹查找
+def file_name2(file_dir): #
     L=[] 
     for root, dirs, files in os.walk(file_dir):
         for file in files:
             if 'scaffolds.fasta' in file:
                 L.append(os.path.join(root, file))
     return L
-def file_name1(file_dir): #识别路径目录下包含的所有png格式照片
-    #注意返回至文件夹中所有文件，会打开深层文件夹查找
+def file_name1(file_dir): #
     L=[] 
     for root, dirs, files in os.walk(file_dir):
         for file in files:
