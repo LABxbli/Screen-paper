@@ -20,7 +20,7 @@ for i in file_name2("path_to_the_Sequence set containing the upstream and downst
      
         f3=open(name+'_2.fasta','w')
         j=1
-        while 1:#过滤后值过低，怀疑存在空行导致的中断，首先获取文件行数后，按行数读取截止。wc -l
+        while 1:
             a1=f1.readline().strip()
             if a1=='':break
         
