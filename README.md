@@ -23,13 +23,13 @@ All code was written by **Penghao Yang** and **Kangning Guo** and **Yanlei Feng*
 
 8. **`Pheno_cluster.py`** - Python script for phenotypic clustering using secondary screening data.
 
-9. **`Geno_merge.py`** - 
+9. **`Geno_merge.py`** - Python script for merging paired sequencing data and generating new format combined files.
     
-10. **`Geno_split.py`** - 
+10. **`Geno_split.py`** - Python script for splitting barcode sequence files into upstream and downstream fragments in FASTA format.
     
-11. **`Geno_cassetteID.py`** - 
+11. **`Geno_cassetteID.py`** - Python script to identify and extract cassette flanking sequences from assembled or extracted sequence files and output them in a structured format.
     
-12. **`tiqugdna.py`** - 
+12. **`tiqugdna.py`** - Python script for extracting specific genomic DNA sequences from assembled genomes and mapping files, with optional reverse-complement transformation.
 
 
 
