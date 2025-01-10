@@ -7,9 +7,9 @@ All code was written by **Penghao Yang** and **Kangning Guo** and **Yanlei Feng*
 
 ## File information
 
-1. File 1 - Summary of genetic complementation results of specific mutants.
+1. **`File 1`** - Summary of genetic complementation results of specific mutants.
    
-2. File 2 - Summary of genetic validation of specific genes' functions by generating and characterizing independent mutants from CRISPR–Cas9.
+2. **`File 2`** - Summary of genetic validation of specific genes' functions by generating and characterizing independent mutants from CRISPR–Cas9.
   
 3. **`RGB_score.xlsx`** - Excel file containing RGB score data used for training and validating the greenness prediction model.
 
@@ -49,4 +49,4 @@ This code is distributed under the GNU General Public License v3. See GPL-3.0 Li
 
 ## Contact
 
-For questions or issues regarding the code, please contact Penghao Yang at yangpenghao@westlake.edu.cn or Kangning Guo at guokangning@westlake.edu.cn
+For questions or issues regarding the code, please contact Penghao Yang at yangpenghao@westlake.edu.cn or Kangning Guo at guokangning@westlake.edu.cn.
