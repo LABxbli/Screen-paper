@@ -23,13 +23,13 @@ All code was written by **Penghao Yang** and **Kangning Guo** and **Yanlei Feng*
 
 8. **`Pheno_cluster.py`** - Python script for phenotypic clustering using secondary screening data.
 
-9. **`Geno_merge.py`** - Python script for phenotypic clustering using secondary screening data.
+9. **`Geno_merge.py`** - 
     
-10. **`Geno_split.py`** - Python script for phenotypic clustering using secondary screening data.
+10. **`Geno_split.py`** - 
     
-11. **`Geno_cassetteID.py`** - Python script for phenotypic clustering using secondary screening data.
+11. **`Geno_cassetteID.py`** - 
     
-12. **`tiqugdna.py`** - Python script for phenotypic clustering using secondary screening data.
+12. **`tiqugdna.py`** - 
 
 
 
