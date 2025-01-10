@@ -1,23 +1,36 @@
 
-This repository contains all the custom scripts and tools used in the study **"Functional Genomic Landscape of Photosynthetic Acclimation to Nitrogen Deficiency"**. These files were developed for digitizing and quantifying phenotypes in secondary screening experiments, including size and greenness measurements, as well as chlorophyll fluorescence parameters for each mutant colony.
+This repository contains all the custom scripts and tools used in the study **"Functional-Genomic Landscape of Photosynthetic Acclimation to Nitrogen Deficiency"**,as well as two dataset files associated with this study. File 1 and File 2 present experimental details for genetic validation of genes identified from ARENA screens. Files labeled 'Pheno_XXX' contain scripts and machine learning models developed for digitizing and quantifying phenotypes in secondary screening experiments. Files labeled 'Geno_XXX' include scripts used for identification of insertion sites from deep-sequencing data.
 
-All code was written by **Penghao Yang** and **Kangning Guo**.
+All code was written by **Penghao Yang** and **Kangning Guo** and **Yanlei Feng**
 
 ---
 
 ## File information
 
-1. **`RGB_score.xlsx`** - Excel file containing RGB score data used for training and validating the greenness prediction model.
+1. File 1 - Summary of genetic complementation results of specific mutants.
+   
+2. File 2 - Summary of genetic validation of specific genes' functions by generating and characterizing independent mutants from CRISPR–Cas9.
+  
+3. **`RGB_score.xlsx`** - Excel file containing RGB score data used for training and validating the greenness prediction model.
 
-2. **`model.svm.linear.pkl`** - Pre-trained SVM model file used by green_yellow_score_svm_v1.1.py for greenness prediction.
+4. **`model.svm.linear.pkl`** - Pre-trained SVM model file used by Pheno_green_yellow_score_svm_v1.1.py for greenness prediction.
 
-3. **`green_yellow_score_svm_v1.1.py`** - Python script to quantify the greenness of colony images using a pre-trained Support Vector Machine (SVM) model.
+5. **`Pheno_green_yellow_score_svm_v1.1.py`** - Python script to quantify the greenness of colony images using a pre-trained Support Vector Machine (SVM) model.
 
-4. **`pam.ipynb`** - Jupyter notebook for quantifying chlorophyll fluorescence phenotypes (Fv/Fm and NPQ) from Imaging-PAM data.
+6. **`Pheno_pam.ipynb`** - Jupyter notebook for quantifying chlorophyll fluorescence phenotypes (Fv/Fm and NPQ) from Imaging-PAM data.
 
-5. **`size.ipynb`** - Jupyter notebook for quantifying colony size from plate images using pixel segmentation and RGB thresholding.
+7. **`Pheno_size.ipynb`** - Jupyter notebook for quantifying colony size from plate images using pixel segmentation and RGB thresholding.
 
-6. **`cluster_pheno.py`** - Python script for phenotypic clustering using secondary screening data.
+8. **`Pheno_cluster.py`** - Python script for phenotypic clustering using secondary screening data.
+
+9. **`Geno_merge.py`** - Python script for phenotypic clustering using secondary screening data.
+    
+10. **`Geno_split.py`** - Python script for phenotypic clustering using secondary screening data.
+    
+11. **`Geno_cassetteID.py`** - Python script for phenotypic clustering using secondary screening data.
+    
+12. **`tiqugdna.py`** - Python script for phenotypic clustering using secondary screening data.
+
 
 
 ## Dependencies
