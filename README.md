@@ -1,7 +1,7 @@
 
 This repository contains all the custom scripts and tools used in the study **"Functional-Genomic Landscape of Photosynthetic Acclimation to Nitrogen Deficiency"**, as well as two dataset files associated with this study. File 1 and File 2 present experimental details for genetic validation of genes identified from ARENA screens. Files labeled 'Pheno_XXX' contain scripts and machine learning models developed for digitizing and quantifying phenotypes in secondary screening experiments. Files labeled 'Geno_XXX' include scripts used for identification of insertion sites from deep-sequencing data.
 
-All custom scripts were written by **Penghao Yang** and **Kangning Guo** and **Yanlei Feng**.
+All custom scripts were written by **Penghao Yang**, **Kangning Guo** and **Yanlei Feng**.
 
 ---
 
