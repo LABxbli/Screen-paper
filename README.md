@@ -29,7 +29,7 @@ All custom scripts were written by **Penghao Yang** and **Kangning Guo** and **Y
     
 11. **`Geno_cassetteID.py`** - Python script to identify and extract cassette flanking sequences from assembled or extracted sequence files and output them in a structured format.
     
-12. **`Genp_extract.py`** - Python script for extracting specific genomic DNA sequences from assembled genomes and mapping files, with optional reverse-complement transformation.
+12. **`Geno_extract.py`** - Python script for extracting specific genomic DNA sequences from assembled genomes and mapping files, with optional reverse-complement transformation.
 
 
 
