@@ -1,4 +1,5 @@
 #python3
+import os 
 ###########################################
 ##############ATCG_TAGC()########
 def ATCG_TAGC(seq):
@@ -57,7 +58,7 @@ for i in file_name2("path_to_the_Whole-genome-sequence-obtained-from-SPAdes-asse
             a=f2.readline().strip()
             b=f2.readline().strip()
             if a=="":break
-            key=name+"_"+a
+            key=name+"_"+a[1:]
             if key in dictseq:
                 
                 if dictseq[a]!=b:
@@ -78,7 +79,7 @@ for i in file_name1("path_to_the_paf_files/"):
             if a=="":break
             b=a.split("\t")
             
-            chr1=name+"_>"+b[0]
+            chr1=name+"_"+b[0]
             site1=int(b[2])
             site2=int(b[3])
             flag=b[4]
