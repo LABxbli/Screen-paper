@@ -61,7 +61,7 @@ for i in file_name2("path_to_the_Whole-genome-sequence-obtained-from-SPAdes-asse
             key=name+"_"+a[1:]
             if key in dictseq:
                 
-                if dictseq[a]!=b:
+                if dictseq[name+"_"+a[1:]]!=b:
                     print("a")
             else:
                 dictseq[key]=b
