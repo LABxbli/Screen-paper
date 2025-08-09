@@ -5,6 +5,43 @@ import cv2
 import numpy as np
 import pylab
 import matplotlib.pyplot as plt
+##########获取反向互补序列##################################
+
+##############互补函数ATCG_TAGC(),用以获取互补序列，注意互补不反向########
+def ATCG_TAGC(seq):
+    n=len(seq)
+    temp=""
+    i=0
+    while i<n:
+        temp+=A_T(seq[i])
+        i+=1
+    return temp
+##########################################################################
+    
+
+#############反转函数A_T(),用以转换配对碱基###################
+def A_T(a):
+    if a=="A":
+        a="T"
+    elif a=="T":
+        a="A"
+    elif a=="G":
+        a="C"
+    elif a=="C":
+        a="G" 
+    return a
+###############################################################
+
+###########反向互补函数ATCG_CGAT(),获取反向互补序列############
+def ATCG_CGAT(seq):
+    n=len(seq)
+    temp=""
+    i=0
+    while i<n:
+        temp+=A_T(seq[n-1-i])
+        i+=1
+    return temp
+###############################################################
 
 
 def file_name2(file_dir):
