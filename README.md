@@ -33,20 +33,23 @@ All custom scripts were written by **Penghao Yang**, **Kangning Guo** and **Yanl
     
 13. **`Geno_extract.py`** - Python script for extracting specific genomic DNA sequences from assembled genomes and mapping files, with optional reverse-complement transformation.
 
+## Required software for running the custom scripts
+Please use **`Python 3.9.7`** or higher to run these scripts. (http://www.python.org/)
+No non-standard hardware required.
 
-
-## Dependencies
-
-### Python 3.9.7 or above (http://www.python.org)
-Python Packages <br>
-**`OpenCV`** (https://github.com/opencv/opencv-python) <br>
-**`scikit-learn`** (https://scikit-learn.org/stable/) <br>
-**`Pillow`** (https://github.com/python-pillow/Pillow) <br>
-**`Matplotlib`** (https://matplotlib.org) <br>
-**`Seaborn`** (https://seaborn.pydata.org)
+## Required python packages
+All python packages requirements (imported in python files):<br>
+**`opencv-python>=4.0.0.21`** (https://github.com/opencv/opencv-python) <br>
+**`numpy>=1.19.3`** (https://numpy.org/) <br>
+**`matplotlib>=3.3.4`** (https://github.com/matplotlib/matplotlib) <br>
+**`pandas>=1.1.5`** (https://github.com/pandas-dev/pandas) <br>
+**`scipy>=1.5.4`** (https://scipy.org/) <br>
+**`seaborn>=0.9.0`** ((https://github.com/mwaskom/seaborn)<br>
+**`Pillow>=6.2.0`** (https://github.com/python-pillow/Pillow)<br>
+**`joblib==0.14.0`** (https://github.com/joblib/joblib)<br>
+**`scikit-learn==0.24.2`** (https://scikit-learn.org/stable/) 
 
 ## License
-
 This code is distributed under the GNU General Public License v3. See GPL-3.0 License for more details.
 
 ## Required software for running the custom scripts
