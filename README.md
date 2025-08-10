@@ -33,6 +33,8 @@ All custom scripts were written by **Penghao Yang**, **Kangning Guo** and **Yanl
     
 13. **`Geno_extract.py`** - Python script for extracting specific genomic DNA sequences from assembled genomes and mapping files, with optional reverse-complement transformation.
 
+14. **`test_files`** – Contains sample input data and corresponding expected output files for demonstrating the functionality of the scripts. These files can be used to verify that the environment is correctly set up and the scripts are working as intended, and also serve as format templates for preparing your own data for analysis.
+
 ## Required software for running the custom scripts
 Please use **`Python 3.9.7`** or higher to run these scripts. (http://www.python.org/)
 No non-standard hardware required.
