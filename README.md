@@ -49,19 +49,19 @@ All python packages requirements (imported in python files):<br>
 **`joblib 0.14.0`** (https://github.com/joblib/joblib)<br>
 **`scikit-learn 0.24.2`** (https://scikit-learn.org/stable/) 
 
-## License
-This code is distributed under the GNU General Public License v3. See GPL-3.0 License for more details.
-
 ## Installation guide
 For installation please refer to the corresponding package links above for installation instructions. All packages have been tested with the specified versions and are confirmed to work correctly.
 
 ## Instructions for use
 - Usage instructions for each script are provided within the script files themselves. Please refer to the header or argument parser section of each script for details.
 - To run on your own data, follow the instructions inside each script.
-- Optional: To reproduce quantitative results from the original study, use the provided datasets (`RGB_score.xlsx`, `model.svm.linear.pkl`) and follow the training and scoring workflow in `Pheno_greenness_scoring.py`.
+- Optional: To reproduce quantitative results from the original study, use the provided datasets (**`RGB_score.xlsx`**, **`model.svm.linear.pkl`**) and follow the training and scoring workflow in **`Pheno_greenness_scoring.py`**.
 
 ## Demo
-You can find sample input data and expected output in the `test_files` directory.
+You can find sample input data and expected output in the **`test_files`** directory.
+
+## License
+This code is distributed under the GNU General Public License v3. See GPL-3.0 License for more details.
 
 ## Contact
 
