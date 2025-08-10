@@ -52,22 +52,6 @@ All python packages requirements (imported in python files):<br>
 ## License
 This code is distributed under the GNU General Public License v3. See GPL-3.0 License for more details.
 
-## Required software for running the custom scripts
-Please use Python 3.9.7 or higher to run these scripts. (http://www.python.org/)
-No non-standard hardware required.
-
-## Required python packages
-All python packages requirements (imported in python files):
-opencv-python>=4.0.0.21 (https://github.com/opencv/opencv-python)
-numpy>=1.19.3 (https://numpy.org/)
-matplotlib>=3.3.4 (https://github.com/matplotlib/matplotlib)
-pandas>=1.1.5 (https://github.com/pandas-dev/pandas)
-scipy>=1.5.4 (https://scipy.org/)
-seaborn>=0.9.0 (https://github.com/mwaskom/seaborn)
-Pillow>=6.2.0 (https://github.com/python-pillow/Pillow)
-joblib==0.14.0 (https://github.com/joblib/joblib)
-scikit-learn==0.24.2 (https://scikit-learn.org/stable/)
-
 ## Installation guide
 For installation please refer to the corresponding package links above for installation instructions. All packages have been tested with the specified versions and are confirmed to work correctly.
 
