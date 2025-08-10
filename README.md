@@ -5,7 +5,7 @@ All custom scripts were written by **Penghao Yang**, **Kangning Guo** and **Yanl
 
 ---
 
-## File information
+## File Information
 
 1. **`File 1`** - Summary of genetic complementation results of specific mutants.
    
@@ -35,11 +35,11 @@ All custom scripts were written by **Penghao Yang**, **Kangning Guo** and **Yanl
 
 14. **`test_files`** - Contains sample input data and corresponding expected output files for demonstrating the functionality of the scripts. These files can be used to verify that the environment is correctly set up and the scripts are working as intended, and also serve as format templates for preparing your own data for analysis.
 
-## Required software for running the custom scripts
+## Required Software for Running the Custom Scripts
 Please use **`Python 3.9.7`** or higher to run these scripts. (http://www.python.org/)
 No non-standard hardware required.
 
-## Required python packages
+## Required Python Packages
 All python packages requirements (imported in python files):<br>
 **`opencv-python 4.0.0.21`** (https://github.com/opencv/opencv-python) <br>
 
@@ -59,10 +59,10 @@ All python packages requirements (imported in python files):<br>
 
 **`scikit-learn 0.24.2`** (https://scikit-learn.org/stable/) 
 
-## Installation guide
+## Installation Guide
 For installation please refer to the corresponding package links above for installation instructions. All packages have been tested with the specified versions and are confirmed to work correctly.
 
-## Instructions for use
+## Instructions for Use
 - Usage instructions for each script are provided within the script files themselves. Please refer to the header or argument parser section of each script for details.
 - To run on your own data, follow the instructions inside each script.
 - Optional: To reproduce quantitative results from the original study, use the provided datasets (**`RGB_score.xlsx`**, **`model.svm.linear.pkl`**) and follow the training and scoring workflow in **`Pheno_greenness_scoring.py`**.
