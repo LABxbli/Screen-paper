@@ -39,15 +39,15 @@ No non-standard hardware required.
 
 ## Required python packages
 All python packages requirements (imported in python files):<br>
-**`opencv-python>=4.0.0.21`** (https://github.com/opencv/opencv-python) <br>
-**`numpy>=1.19.3`** (https://numpy.org/) <br>
-**`matplotlib>=3.3.4`** (https://github.com/matplotlib/matplotlib) <br>
-**`pandas>=1.1.5`** (https://github.com/pandas-dev/pandas) <br>
-**`scipy>=1.5.4`** (https://scipy.org/) <br>
-**`seaborn>=0.9.0`** ((https://github.com/mwaskom/seaborn)<br>
-**`Pillow>=6.2.0`** (https://github.com/python-pillow/Pillow)<br>
-**`joblib==0.14.0`** (https://github.com/joblib/joblib)<br>
-**`scikit-learn==0.24.2`** (https://scikit-learn.org/stable/) 
+**`opencv-python 4.0.0.21`** (https://github.com/opencv/opencv-python) <br>
+**`numpy 1.19.3`** (https://numpy.org/) <br>
+**`matplotlib 3.3.4`** (https://github.com/matplotlib/matplotlib) <br>
+**`pandas 1.1.5`** (https://github.com/pandas-dev/pandas) <br>
+**`scipy 1.5.4`** (https://scipy.org/) <br>
+**`seaborn 0.9.0`** ((https://github.com/mwaskom/seaborn)<br>
+**`Pillow 6.2.0`** (https://github.com/python-pillow/Pillow)<br>
+**`joblib 0.14.0`** (https://github.com/joblib/joblib)<br>
+**`scikit-learn 0.24.2`** (https://scikit-learn.org/stable/) 
 
 ## License
 This code is distributed under the GNU General Public License v3. See GPL-3.0 License for more details.
