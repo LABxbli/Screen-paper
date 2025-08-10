@@ -68,7 +68,7 @@ For installation please refer to the corresponding package links above for insta
 - Optional: To reproduce quantitative results from the original study, use the provided datasets (**`RGB_score.xlsx`**, **`model.svm.linear.pkl`**) and follow the training and scoring workflow in **`Pheno_greenness_scoring.py`**.
 
 ## Demo
-You can find sample input data and expected output in the **`test_files`** directory.
+You can find sample input data and expected output in the **`test_files`** directory. For each script, the run time for the demo files provided using a typical computer setup is shorter than 10 min.
 
 ## License
 This code is distributed under the GNU General Public License v3. See GPL-3.0 License for more details.
