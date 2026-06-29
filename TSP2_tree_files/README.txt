@@ -1,0 +1,1 @@
+The TSP2_alignment.txt contains the sequence alignment generated using MAFFT. The TSP2_IQTREE2.treefile is the final phylogenetic tree constructed using IQ-TREE2. The TSP2_tree.pdf is a visually enhanced (formatted) phylogenetic tree diagram.
