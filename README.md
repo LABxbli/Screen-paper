@@ -7,9 +7,9 @@ All custom scripts were written by **Penghao Yang**, **Kangning Guo** and **Yanl
 
 ## File Information
 
-1. **`File 1`** - Summary of genetic complementation results of specific mutants.
+1. **`Validation File 1`** - Summary of genetic complementation results of specific mutants.
    
-2. **`File 2`** - Summary of genetic validation of specific genes' functions by generating and characterizing independent mutants from CRISPR–Cas9.
+2. **`Validation File 2`** - Summary of genetic validation of specific genes' functions by generating and characterizing independent mutants from CRISPR–Cas9.
   
 3. **`RGB_score.xlsx`** - Excel file containing RGB score data used for training and validating the greenness prediction model.
    
